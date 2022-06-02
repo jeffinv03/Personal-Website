@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: monospace;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.top {
+  padding-top: 100px;
+  position: relative;
+  background-color: #E4F9F5;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+
+}
+
+.mountain {
+  margin: auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  padding-top: 100px;
+}
+
+.pfp{
+  width: 300px;
+  height: 300px;
+  margin-top: 100px;
+}
+
+.coding{
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.research{
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin-left: 150px;
+
+}
+
+.helloText{
+  width: 30%;
+  margin: auto;
+}
+
+.middle-container{
+  margin: auto;
+}
+
+.contactMessage{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+.myButton {
+	box-shadow: 0px 10px 15px -7px #276873;
+	background:linear-gradient(to bottom, #1ebdf7 5%, #408c99 100%);
+	background-color:#1ebdf7;
+	border-radius:14px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:15px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+  margin-bottom: 100px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #1ebdf7 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: .75REM;
+  padding: 20px 0;
+}
